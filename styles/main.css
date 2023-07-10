@@ -1,0 +1,185 @@
+* {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 14px;
+}
+
+body {
+  display: grid;
+  justify-content: center;
+}
+
+h1 {
+  font-size: 8em;
+  font-weight: 900;
+  letter-spacing: 4px;
+  margin: -8px 0;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 100;
+  letter-spacing: 4px;
+  margin: 16px 0 48px;
+}
+
+h3 {
+  font-size: 2.25em;
+  font-weight: bold;
+  letter-spacing: 3px;
+  margin: 16px 0 8px;
+}
+
+h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  letter-spacing: 1px;
+  margin: 0 0 8px;
+}
+
+p {
+  font-size: 1.25em;
+  font-weight: 600;
+  letter-spacing: 0px;
+  text-align: justify;
+  margin: 0;
+}
+
+span {
+  font-size: 1.125em;
+  font-weight: 100;
+  letter-spacing: 0px;
+  text-align: justify;
+  margin-bottom: 8px;
+}
+
+.underline-light {
+  width: 74px;
+  border-bottom: #e8e8d9 solid 4px;
+  margin: 16px 0 8px;
+}
+
+.underline-dark {
+  width: 74px;
+  border-bottom: #222020 solid 4px;
+  margin: 16px 0 8px;
+}
+
+.skill-list {
+  display: grid;
+  grid-auto-flow: column;
+  grid-template-rows: repeat(3, 40px);
+}
+
+.skill {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.skill p {
+  font-size: 1.5em;
+  font-weight: 800;
+}
+
+.skill-level {
+  width: 180px;
+  display: grid;
+  grid-template-columns: repeat(5, 24px);
+  justify-content: center;
+  align-content: space-around;
+}
+
+.skill-dot {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+}
+
+.skill-dot-light-on {
+  background-color: #e8e8d9;
+}
+
+.skill-dot-light-off {
+  background-color: #e8e8d966;
+}
+
+.skill-dot-dark-on {
+  background-color: #222020;
+}
+
+.skill-dot-dark-off {
+  background-color: #22202066;
+}
+
+
+#cv {
+  width: 1080px;
+  min-height: 1640px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 50px 25px 50px #22202066;
+  margin: 50px 0;
+}
+
+#info {
+  width: 33%;
+  color: #e8e8d9;
+  background-color: #222020;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#profile-photo {
+  width: auto;
+  height: 200px;
+  border-radius: 50%;
+  margin: -140px auto 60px;
+}
+
+.info-block {
+  display: grid;
+  margin: 30px 0;
+}
+
+.info-item {
+  margin-bottom: 24px;
+}
+
+#general {
+  width: 67%;
+  color: #222020;
+  background-color: #e8e8d9;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+}
+
+#profile {
+  width: 580px;
+}
+
+#experience {
+  width: 580px;
+  display: grid;
+}
+
+.job-item {
+  display: flex;
+  margin-bottom: 12px;
+}
+
+.job-item-duration {
+  width: 34%;
+  display: block;
+  justify-content: center;
+  align-content: center;
+}
+
+.job-item-description {
+  width: 66%;
+}
+
+#skills {
+  width: 580px;
+}
